@@ -5,7 +5,7 @@ set ytics nomirror tc lt 1
 set y2tics nomirror tc lt 2
 set mxtics 4
 set ylabel 'Energy / [K]' tc lt 1
-set y2label 'Number' tc lt 2 
+#set y2label 'Number' tc lt 2 
 set xl 'Time / [ps]'
 set title TITLE
 p INDATA u 1:18 w l axes x1y1 lt 1 t 'Total energy', \
